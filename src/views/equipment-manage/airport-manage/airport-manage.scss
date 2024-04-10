@@ -1,0 +1,23 @@
+.list{
+    background-color: rgba(11, 35, 99, 1);
+    :deep(.table-main){
+        padding: 0 16px;
+        .table-header{
+            padding:26px 0 14px 0 ;
+        }
+    }
+}
+.delete-button{
+    color:rgba(227, 21, 21, 1);
+    &.is-link:hover, &.is-link:focus{
+        color:rgb(241 11 11) !important;
+    }
+}
+.status{
+    &.wait{
+        color:rgba(3, 199, 255, 1)
+    }
+    &.offline{
+       color: rgba(153, 153, 153, 1)
+    }
+}

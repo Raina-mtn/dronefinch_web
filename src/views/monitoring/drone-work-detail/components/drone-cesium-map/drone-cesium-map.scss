@@ -1,0 +1,44 @@
+.map-container {
+    background-color: rgb(8, 31, 77);
+    color: white;
+}
+
+.map-style-item {
+    background-color: rgba(7, 22, 62, 0.80);
+
+    &.active {
+        background: linear-gradient(180deg, #369EF8 0%, #2063D9 100%);
+        border: 1px solid #5DB4FD;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+
+.map-dialog {
+    background: rgba(7, 22, 62, 0.8);
+    border-radius: 4px 4px 4px 4px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .title {
+        background: linear-gradient(90deg, #439DED 0%, rgba(67, 157, 237, 0) 100%);
+    }
+
+    .btn {
+        border-radius: 3px 3px 3px 3px;
+    }
+    .btn-left {
+        margin-right: 10px;
+        color: #18B1EF;
+        border: 1px solid #18B1EF;
+        background: none !important;
+        cursor: pointer;
+    }
+
+    .btn-right {
+        border-left:none !important;
+        cursor: pointer;
+    }
+}

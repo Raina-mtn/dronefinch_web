@@ -1,0 +1,37 @@
+.detail{
+    background-color: rgba(25, 53, 128, 1);
+}
+.logo{
+    background-color:rgba(31, 64, 153, 1);
+    width: 130px;
+    height: 130px;
+    img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+.status-tag{
+    background-color:rgba(3, 199, 255, 0.60) ;
+    border:1px solid rgba(3, 199, 255, 1);
+    border-radius: 3px;
+    height: 24px;
+}
+.text-opacity-50{
+    opacity: 0.5;
+}
+.desc-item{
+    border-right: 1px solid rgba(36, 75, 178, 1);
+    &:first-child{
+        padding-left: 0;
+    }
+    &:last-child{
+        border: 0;
+    }
+}
+.video-box{
+    height: 360px;
+    .empty{
+        width: 200px;
+        height: 200px;
+    }
+}

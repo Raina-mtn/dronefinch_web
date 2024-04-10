@@ -1,0 +1,79 @@
+.content-header {
+    background: linear-gradient(90deg, #204D90 0%, rgba(32, 77, 144, 0) 100%);
+}
+
+.overlay-offline {
+    background: rgba(6, 21, 41, 0.8);
+}
+
+.work-header {
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(@images/work-top-bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-image {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+// 圆弧进度条改变element-ui的颜色为渐变色
+.circle-progress :deep(svg)>path:nth-child(2) {
+    stroke: url(#gradientColor);
+}
+
+.video-select {
+    :deep(.select-trigger) {
+        width: 150px;
+
+        .el-input.is-focus .el-input__wrapper,
+        .el-input .el-input__wrapper.is-focus {
+            box-shadow: unset !important;
+        }
+
+        .el-input__inner {
+            text-align: right;
+        }
+
+
+        .el-input__wrapper {
+            background-color: unset;
+            box-shadow: unset;
+        }
+    }
+}
+
+.ptz-type-select {
+    :deep(.select-trigger) {
+        width: 100px;
+    }
+}
+
+.ptz-reset-dropdown {
+
+    :deep(.el-tooltip__trigger) {
+        outline: 0 !important;
+
+    }
+
+    :deep(.el-dropdown-link) {
+        .el-icon--right {
+            padding-top: 2px;
+        }
+
+    }
+}
+
+.control-bottom-box {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.control-bottom-progress {
+    left: 50%;
+    bottom: 100px;
+}

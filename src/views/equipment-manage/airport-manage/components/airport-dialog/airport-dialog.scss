@@ -1,0 +1,20 @@
+.length-form-item{
+    :deep(.el-form-item__content){
+        .el-input-number{
+            flex: 1;
+            .el-input__inner{
+                text-align: left;
+            }
+        }
+    }
+}
+.voltage-form-item{
+    :deep(.el-select){
+        flex: 1;
+    }
+}
+.city-form-item{
+    :deep(.el-cascader ){
+        flex: 1;
+    }
+}

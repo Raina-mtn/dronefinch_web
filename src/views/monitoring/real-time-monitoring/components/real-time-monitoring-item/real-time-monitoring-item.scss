@@ -1,0 +1,14 @@
+.danger-inactive{
+    background-color:rgba(27, 61, 159, 1);
+    border-color: rgba(23, 101, 227, 1);
+}
+.item{
+    background-color:rgba(11, 35, 99, 1) ;
+}
+.item-top{
+    height: 60px;
+    background: linear-gradient(90deg, #1484E5 0%, rgba(15,41,64,0) 100%);
+    &--title{
+        // font-size: 20px;
+    }
+}

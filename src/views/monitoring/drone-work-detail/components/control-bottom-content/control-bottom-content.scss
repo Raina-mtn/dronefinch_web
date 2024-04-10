@@ -1,0 +1,19 @@
+.control-button {
+    background-color: rgba(6, 21, 41, 0.85);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &.active {
+        background: linear-gradient(180deg, #369EF8 0%, #2063D9 100%);
+    }
+
+    &.smart-return {
+        background: linear-gradient(180deg, #369EF8 0%, #2063D9 100%);
+    }
+
+    &.quick-stop {
+        background: linear-gradient(180deg, #FF5C43 0%, #D02F16 100%);
+    }
+}

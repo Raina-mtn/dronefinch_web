@@ -1,0 +1,31 @@
+.control-box{
+
+}
+
+.zoom-line{
+    height: calc(100% - 10px);
+}
+.zoom-icon{
+    background-image: url(@images/timeline-finished.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.zoom-item{
+    &.active{
+        .zoom-icon{
+            background-image: url(@images/timeline-wait.png);
+        }
+    }
+    &:last-child{
+        padding-bottom: 0;
+        .zoom-line{
+            display: none;
+        }
+    }
+}
+.button-item{
+    background: linear-gradient(180deg, #369EF8 0%, #2063D9 100%);
+    opacity: 1;
+    border: 1px solid #5DB4FD;
+}

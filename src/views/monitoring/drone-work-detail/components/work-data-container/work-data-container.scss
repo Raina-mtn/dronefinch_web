@@ -1,0 +1,11 @@
+.item-box{
+    background-color: rgba(7, 22, 62, 0.80);
+    .section-title{
+        background-image:url(@/assets/images/work-title-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}

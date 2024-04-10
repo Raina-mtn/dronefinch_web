@@ -1,0 +1,14 @@
+// .dot-icon{
+//     transform: translateX(-16px);
+//     top:-6px;
+// }
+.timeline-box :deep(.el-timeline-item__dot){
+    transform: translateX(-11px);
+    z-index: 10;
+    top:-6px;
+}
+.timeline-box :deep(.el-timeline-item__tail){
+    height: calc(100% - 38px);
+    top: 30px;
+    border-color:theme('colors.primary') ;
+}

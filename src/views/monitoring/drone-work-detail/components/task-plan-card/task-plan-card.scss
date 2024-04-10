@@ -1,0 +1,12 @@
+.tag{
+    &.regular{
+        border: 1px solid theme('colors.primary');
+        color: theme('colors.primary');
+        background-color: rgba(10, 240, 253, 0.20);
+    }
+    &.circle{
+        border: 1px solid rgba(99, 231, 183, 1);
+        color: rgba(99, 231, 183, 1);
+        background-color: rgba(99, 231, 183, 0.20);
+    }
+}

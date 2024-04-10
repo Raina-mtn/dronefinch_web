@@ -1,0 +1,19 @@
+// 所有字典类型 通过后端接口获取：/sps/v1/dict/total
+export enum TotalDict {
+    DRONE_STATUS = "DRONE_STATUS", //飞行器状态
+    AIRPORT_STATUS = "AIRPORT_STATUS", //机场状态
+    WAYLINE_TYPE = "WAYLINE_TYPE", //航线类型
+    VOLTAGE_LEVEL = "VOLTAGE_LEVEL", //电压等级
+    DRONE_MODEL = "DRONE_MODEL", //飞行器型号
+    AIRPORT_MODEL = "AIRPORT_MODEL", //机场型号
+    PARTS_TYPE = "PARTS_TYPE", //设备类型
+    PARTS_DETECT_TYPE = "PARTS_DETECT_TYPE", //部件识别类型
+    TASK_PLAN_STATUS = "TASK_PLAN_STATUS", //任务计划-任务状态
+    TASK_PLAN_EXECUTE_TYPE = "TASK_PLAN_EXECUTE_TYPE", //任务计划-执行方式
+    TASK_PLAN_CYCLE_TYPE = "TASK_PLAN_CYCLE_TYPE", //任务计划-周期方式
+    TASK_RECORD_TYPE = "TASK_RECORD_TYPE", //任务作业类型
+    TASK_RECORD_STATUS = "TASK_RECORD_STATUS", //任务作业记录状态
+    IMAGE_DETECT_RESULT = "IMAGE_DETECT_RESULT", //图片检测结果
+    REVIEW_DEFECT_LEVEL = "REVIEW_DEFECT_LEVEL", //复核缺陷等级
+    REVIEW_DEFECT_TYPE = "REVIEW_DEFECT_TYPE", //复核缺陷类型
+}

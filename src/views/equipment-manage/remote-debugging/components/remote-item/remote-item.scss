@@ -1,0 +1,13 @@
+.left-section{
+    box-shadow: 0px 4px 10px 0px rgba(11,35,99,0.3);
+    background: #1F4099;
+}
+.button-item{
+    box-shadow: 0px 4px 10px 0px rgba(11,35,99,0.3);
+    &:nth-child(2n+1){
+        margin-right: 16px;
+    }
+    &:nth-child(1),&:nth-child(2){
+        margin-top: 0px;
+    }
+}

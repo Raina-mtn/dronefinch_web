@@ -1,0 +1,13 @@
+.control-box{
+    background-image:url(@/assets/images/compass-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+    transform: rotate(90deg);
+}
+.pointer{
+    left: 50%;
+    transform: translate(-50%,0px);
+    top:15px;
+}
+

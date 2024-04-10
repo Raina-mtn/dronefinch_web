@@ -1,0 +1,184 @@
+export const apiGetUserList = () => {
+  return {
+    data:
+    {
+      list:[
+        {status:'RUNNING'},
+        {status:'AUDIT'},
+        {status:'PATROL'},
+        {status:'FINISH'},
+      ],
+      totalCount:4,
+    },
+  };
+};
+
+export const apiGetPlanList = () => {
+  return {
+    data:
+    {
+      list:[
+        {status:'EXECUTE'},
+        {status:'EXECUTED'},
+      ],
+      totalCount:2,
+    },
+  };
+};
+
+export const apiGetItemList = () => {
+  return {
+    data:
+    [
+      {
+        id:'1',
+        url:'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg',
+        // equipment:'左相绝缘子',
+        defect:'1',
+        status:'AUDIT',
+        desc:'220kvXXX线路-012#',
+        defectList:[
+          {
+            id:'1',
+            level:'1',
+            type:'1',
+            featureType:'Rect',
+            position:[
+              {
+                x:251,
+                y:251,
+                width:110,
+                height:50,
+              },
+            ],
+          },
+          {
+            id:'2',
+            level:'2',
+            type:'2',
+            featureType:'Polygon',
+            position:[
+              {
+                x:153,
+                y:150,
+              },
+              {
+                x:180,
+                y:180,
+              },
+              {
+                x:500,
+                y:100,
+              },
+            ],
+          },
+        ],
+        noteList:[
+          {
+            id:'1',
+            note:'1213',
+            position:[
+              {
+                x:110,
+                y:240,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id:'2',
+        url:'https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg',
+        equipment:'左相绝缘子',
+        defect:'1',
+        status:'AUDIT',
+        desc:'220kvXXX线路-012#',
+        defectList:[],
+        noteList:[],
+      },
+      {
+        id:'3',
+        url:'https://fuss10.elemecdn.com/1/34/19aa98b1fcb2781c4fba33d850549jpeg.jpeg',
+        equipment:'左相绝缘子',
+        defect:'1',
+        status:'AUDIT',
+        desc:'220kvXXX线路-012#',
+        defectList:[],
+        noteList:[],
+      },
+      {
+        id:'4',
+        url:'https://fuss10.elemecdn.com/0/6f/e35ff375812e6b0020b6b4e8f9583jpeg.jpeg',
+        equipment:'左相绝缘子',
+        defect:'1',
+        status:'AUDIT',
+        desc:'220kvXXX线路-012#',
+        defectList:[],
+        noteList:[],
+      },
+      
+    ],
+  };
+};
+
+export const apiGetImage = () => {
+  return {
+    data:
+      {
+        id:'1',
+        url:'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg',
+        // equipment:'左相绝缘子',
+        defect:'1',
+        status:'AUDIT',
+        desc:'220kvXXX线路-012#',
+        defectList:[
+          {
+            id:'1',
+            level:'1',
+            type:'1',
+            featureType:'Rect',
+            position:[
+              {
+                x:251,
+                y:251,
+                width:110,
+                height:50,
+              },
+            ],
+          },
+          {
+            id:'2',
+            level:'2',
+            type:'2',
+            featureType:'Polygon',
+            position:[
+              {
+                x:153,
+                y:150,
+              },
+              {
+                x:180,
+                y:180,
+              },
+              {
+                x:500,
+                y:100,
+              },
+            ],
+          },
+        ],
+        noteList:[
+          {
+            id:'1',
+            note:'1213',
+            position:[
+              {
+                x:110,
+                y:240,
+              },
+            ],
+          },
+        ],
+      },
+  };
+};
